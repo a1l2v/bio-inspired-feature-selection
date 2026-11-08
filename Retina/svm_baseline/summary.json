@@ -1,0 +1,46 @@
+{
+  "protocol": {
+    "kernel": "rbf",
+    "C": 1.0,
+    "gamma": "scale",
+    "decision_function_shape": "ovr"
+  },
+  "test_mean_std": {
+    "resnet18_head": {
+      "acc": {
+        "mean": 0.52417,
+        "std": 0.01233
+      },
+      "auc": {
+        "mean": 0.71697,
+        "std": 0.00685
+      },
+      "macro_f1": {
+        "mean": 0.31802,
+        "std": 0.03844
+      },
+      "qwk": {
+        "mean": 0.51236,
+        "std": 0.04818
+      }
+    },
+    "svm_all_512": {
+      "acc": {
+        "mean": 0.51667,
+        "std": 0.01377
+      },
+      "auc": {
+        "mean": 0.66545,
+        "std": 0.01334
+      },
+      "macro_f1": {
+        "mean": 0.33858,
+        "std": 0.01265
+      },
+      "qwk": {
+        "mean": 0.54804,
+        "std": 0.01303
+      }
+    }
+  }
+}

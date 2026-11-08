@@ -1,0 +1,33 @@
+metric,method,vs,mean_diff,wins,ties,losses,p,p_holm,family
+acc,HHO,RANDOM,-0.00383,11,0,19,0.06373,0.19118,primary
+acc,CSO,RANDOM,0.00133,16,3,11,0.30794,0.53074,primary
+acc,HHO,ALL512,-0.00417,10,2,18,0.04451,0.17805,primary
+acc,CSO,ALL512,0.001,16,5,9,0.26537,0.53074,primary
+acc,GA,RANDOM,0.00117,17,2,11,0.4097,–,secondary (not corrected)
+acc,GA,ALL512,0.00083,16,3,11,0.42632,–,secondary (not corrected)
+acc,HHO,GA,-0.005,9,4,17,0.02404,–,secondary (not corrected)
+acc,CSO,GA,0.00017,12,4,14,1.0,–,secondary (not corrected)
+auc,HHO,RANDOM,-0.0009,16,0,14,0.9193,1.0,primary
+auc,CSO,RANDOM,0.00027,14,0,16,0.62883,1.0,primary
+auc,HHO,ALL512,-0.00241,15,0,15,0.27101,0.81302,primary
+auc,CSO,ALL512,-0.00125,6,0,24,0.00425,0.017,primary
+auc,GA,RANDOM,0.00107,19,0,11,0.09986,–,secondary (not corrected)
+auc,GA,ALL512,-0.00044,11,0,19,0.29416,–,secondary (not corrected)
+auc,HHO,GA,-0.00197,13,0,17,0.3184,–,secondary (not corrected)
+auc,CSO,GA,-0.00081,12,0,18,0.09986,–,secondary (not corrected)
+macro_f1,HHO,RANDOM,-0.00534,11,0,19,0.07324,0.24226,primary
+macro_f1,CSO,RANDOM,0.00314,18,0,12,0.28937,0.39615,primary
+macro_f1,HHO,ALL512,-0.00547,10,0,20,0.06057,0.24226,primary
+macro_f1,CSO,ALL512,0.00301,20,0,10,0.19808,0.39615,primary
+macro_f1,GA,RANDOM,0.00245,19,1,10,0.11801,–,secondary (not corrected)
+macro_f1,GA,ALL512,0.00232,17,0,13,0.14138,–,secondary (not corrected)
+macro_f1,HHO,GA,-0.00779,8,0,22,0.00664,–,secondary (not corrected)
+macro_f1,CSO,GA,0.00069,10,0,20,0.37092,–,secondary (not corrected)
+qwk,HHO,RANDOM,0.0037,18,0,12,0.21293,0.6388,primary
+qwk,CSO,RANDOM,0.00242,15,0,15,0.58376,0.83226,primary
+qwk,HHO,ALL512,0.00396,20,0,10,0.13474,0.53894,primary
+qwk,CSO,ALL512,0.00269,15,0,15,0.41613,0.83226,primary
+qwk,GA,RANDOM,0.0066,21,0,9,0.01283,–,secondary (not corrected)
+qwk,GA,ALL512,0.00687,23,0,7,0.00316,–,secondary (not corrected)
+qwk,HHO,GA,-0.00291,16,0,14,0.82358,–,secondary (not corrected)
+qwk,CSO,GA,-0.00418,11,0,19,0.12797,–,secondary (not corrected)

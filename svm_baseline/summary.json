@@ -1,0 +1,61 @@
+{
+  "protocol": {
+    "svm": {
+      "kernel": "rbf",
+      "C": 1.0,
+      "gamma": "scale"
+    },
+    "scaler": "StandardScaler fit on train",
+    "features": [
+      "features/resnet18_28_1.npz",
+      "features/resnet18_28_2.npz",
+      "features/resnet18_28_3.npz"
+    ]
+  },
+  "test_mean_std": {
+    "resnet18_head": {
+      "acc": {
+        "mean": 0.86325,
+        "std": 0.0148
+      },
+      "auc": {
+        "mean": 0.90149,
+        "std": 0.01454
+      },
+      "macro_f1": {
+        "mean": 0.82081,
+        "std": 0.0168
+      },
+      "malignant_recall": {
+        "mean": 0.69841,
+        "std": 0.01375
+      },
+      "specificity": {
+        "mean": 0.92398,
+        "std": 0.01826
+      }
+    },
+    "svm_all_512": {
+      "acc": {
+        "mean": 0.85897,
+        "std": 0.01282
+      },
+      "auc": {
+        "mean": 0.88485,
+        "std": 0.01027
+      },
+      "macro_f1": {
+        "mean": 0.81307,
+        "std": 0.01431
+      },
+      "malignant_recall": {
+        "mean": 0.6746,
+        "std": 0.02749
+      },
+      "specificity": {
+        "mean": 0.9269,
+        "std": 0.02026
+      }
+    }
+  }
+}

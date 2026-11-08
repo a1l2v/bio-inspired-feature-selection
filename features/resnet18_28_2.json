@@ -1,0 +1,35 @@
+{
+  "weights": "baseline/weights/resnet18_28_2.pth",
+  "weights_md5": "d4c9b397e4f186309902ae1556a7c648",
+  "data": "dataset/breastmnist.npz",
+  "data_md5": "750601b1f35ba3300ea97c75c52ff8f6",
+  "layer": "avgpool output (input to final linear layer), 512-dim, post-ReLU",
+  "preprocessing": "as_rgb=True, ToTensor, Normalize(mean=.5, std=.5), 28x28",
+  "label_map": {
+    "0": "malignant",
+    "1": "normal, benign"
+  },
+  "positive_class_note": "label 0 = malignant; use pos_label=0 for malignant recall",
+  "torch": "2.14.1+cu126",
+  "medmnist": "3.0.2",
+  "metrics_from_original_head": {
+    "train": {
+      "n": 546,
+      "auc": 0.99998,
+      "acc": 0.99817,
+      "head_max_abs_diff": 1.9073486328125e-06
+    },
+    "val": {
+      "n": 78,
+      "auc": 0.96324,
+      "acc": 0.89744,
+      "head_max_abs_diff": 0.0
+    },
+    "test": {
+      "n": 156,
+      "auc": 0.91729,
+      "acc": 0.87179,
+      "head_max_abs_diff": 1.9073486328125e-06
+    }
+  }
+}

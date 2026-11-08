@@ -1,0 +1,33 @@
+metric,method,vs,mean_diff,wins,ties,losses,p,p_holm,family
+acc,GA,RANDOM,0.01471,29,0,1,0.0,1e-05,primary
+acc,CSO,RANDOM,0.01332,26,0,4,2e-05,2e-05,primary
+acc,GA,FILTER,0.01849,29,0,1,0.0,1e-05,primary
+acc,CSO,FILTER,0.01709,28,0,2,0.0,1e-05,primary
+acc,GA,ALL1820,0.00036,15,0,15,0.91805,–,secondary (not corrected)
+acc,CSO,ALL1820,-0.00103,14,0,16,0.56462,–,secondary (not corrected)
+acc,GA,CSO,0.0014,16,0,14,0.53043,–,secondary (not corrected)
+acc,FILTER,RANDOM,-0.00377,9,2,19,0.03587,–,secondary (not corrected)
+auc,GA,RANDOM,0.0183,25,0,5,2e-05,5e-05,primary
+auc,CSO,RANDOM,0.01965,25,0,5,1e-05,3e-05,primary
+auc,GA,FILTER,0.00715,22,0,8,0.03454,0.03454,primary
+auc,CSO,FILTER,0.0085,19,0,11,0.01546,0.03092,primary
+auc,GA,ALL1820,-0.02129,2,0,28,0.0,–,secondary (not corrected)
+auc,CSO,ALL1820,-0.01994,3,0,27,0.0,–,secondary (not corrected)
+auc,GA,CSO,-0.00135,12,0,18,0.52911,–,secondary (not corrected)
+auc,FILTER,RANDOM,0.01115,21,0,9,0.0008,–,secondary (not corrected)
+macro_f1,GA,RANDOM,0.0387,24,0,6,1e-05,–,secondary (not corrected)
+macro_f1,CSO,RANDOM,0.03597,24,0,6,1e-05,–,secondary (not corrected)
+macro_f1,GA,FILTER,0.01144,16,0,14,0.14028,–,secondary (not corrected)
+macro_f1,CSO,FILTER,0.00872,18,0,12,0.1706,–,secondary (not corrected)
+macro_f1,GA,ALL1820,0.01227,18,0,12,0.13474,–,secondary (not corrected)
+macro_f1,CSO,ALL1820,0.00954,19,0,11,0.12413,–,secondary (not corrected)
+macro_f1,GA,CSO,0.00273,15,0,15,0.98383,–,secondary (not corrected)
+macro_f1,FILTER,RANDOM,0.02725,24,0,6,2e-05,–,secondary (not corrected)
+bal_acc,GA,RANDOM,0.03123,26,0,4,0.0,–,secondary (not corrected)
+bal_acc,CSO,RANDOM,0.02956,27,0,3,0.0,–,secondary (not corrected)
+bal_acc,GA,FILTER,0.01438,18,0,12,0.02085,–,secondary (not corrected)
+bal_acc,CSO,FILTER,0.01271,20,0,10,0.00761,–,secondary (not corrected)
+bal_acc,GA,ALL1820,-0.01092,11,0,19,0.04602,–,secondary (not corrected)
+bal_acc,CSO,ALL1820,-0.01259,9,0,21,0.00501,–,secondary (not corrected)
+bal_acc,GA,CSO,0.00167,17,0,13,0.88719,–,secondary (not corrected)
+bal_acc,FILTER,RANDOM,0.01685,23,0,7,0.00026,–,secondary (not corrected)

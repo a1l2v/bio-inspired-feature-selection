@@ -1,0 +1,28 @@
+{
+  "weights": "Retina/baseline/weights/resnet18_28_2.pth",
+  "weights_md5": "ba1562f7dc0d96db49caecdaddd62af4",
+  "data": "Retina/dataset/retinamnist.npz",
+  "data_md5": "bd4c0672f1bba3e3a89f0e4e876791e4",
+  "layer": "avgpool output (input to final linear layer), 512-dim, post-ReLU",
+  "preprocessing": "native RGB, ToTensor, Normalize(mean=.5, std=.5), 28x28",
+  "labels": "diabetic-retinopathy grade 0-4 (ordinal)",
+  "torch": "2.14.1+cu126",
+  "medmnist": "3.0.2",
+  "metrics_from_original_head": {
+    "train": {
+      "n": 1080,
+      "auc": 0.80147,
+      "acc": 0.52037
+    },
+    "val": {
+      "n": 120,
+      "auc": 0.83642,
+      "acc": 0.53333
+    },
+    "test": {
+      "n": 400,
+      "auc": 0.7195,
+      "acc": 0.53
+    }
+  }
+}
